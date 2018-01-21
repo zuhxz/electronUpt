@@ -10,6 +10,7 @@ deploy:
   file: test1.txt
   on:
     repo: zuhxz/electronUpt
-
+  file_glob: "true"
+  skip_cleanup: true
 after_success:
     - sh set_tags.sh
