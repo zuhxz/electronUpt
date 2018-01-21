@@ -5,7 +5,6 @@ script:
     
 before_deploy:
     - git add test1.txt
-    - git commit test1.txt 6
 deploy:
   provider: releases
   api_key:
@@ -13,6 +12,3 @@ deploy:
   file: test1.txt
   on:
     repo: zuhxz/electronUpt
-
-after_success:
-    - sh set_tags.sh
