@@ -8,3 +8,6 @@ deploy:
   file: test.txt
   on:
     repo: zuhxz/electronUpt
+
+after_success:
+    - sh set_tags.sh
