@@ -1,11 +1,11 @@
 language: node_js
 install: npm install
-script: echo linez >> test.txt
+script: touch test1.txt
 deploy:
   provider: releases
   api_key:
     secure: Ehh1oZ/e6TuQXtlVfBNZDk/aNeQkqv9sa75H52E1yizKkBPNU0l77VQGxoeNzdY/qkeSjQoZ9ApaFalwyRtqKYeCmf1HY9f/8ylh8vz4mHITWBTXc63kZJtgb7D1muz8WcMk0yZcAFb1Y27FsxM8p2Sfma8/mXGmsP4pTnEaMiQIQZCJ2iFBcwyzJGEu/bLlCcyH4n/h9jlx/6MhRB5ZtD0DIRBB8XbiKNTNPcDUXv0Qq0XjSrvm1oInjekIpXOoYtu44J3JN0p4gggQ2FBuR0bx9bTWGm+EGzyKaVToOLUmoU2NbzNpvZwDHbWZNi/wpZ0HeTrwoDTUrMtG6r79dRMc7LnecpDoZNyGtxXVlA/A5E7Z+hGTGIS+ekT30MP2PujiPqIhoBdC+8DjyEPnLV4dpxtqwcVBAoxsm/O4yIAkcqnDbUiZNIQLPu9FQmM5H4LuuR8OfSzsWqEfLCOMq7ZonPQVyUppmFkh8Qe56pj6xxKIM3WzVSuK+jzmRXYXpSrsmHMVxlom7mfKWp/x9J23X6XpUxg67qZnktcqfnjNNho5r+HzIzTNTEpx76ixOaFtBFVQ6KvCv8vnG3jhyFlvJFjuXK7+iOBOoDUovlCjyHWZRVkdi4MCFXKC3CNkrOTAviS/7gUl/crZ6OwMgRkDzsVYpl1EcC5JFkhP6HM=
-  file: test.txt
+  file: test1.txt
   on:
     repo: zuhxz/electronUpt
 
