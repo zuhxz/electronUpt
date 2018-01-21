@@ -5,6 +5,7 @@ script:
     
 before_deploy:
     - git add test1.txt
+    - git commit test1.txt 6
 deploy:
   provider: releases
   api_key:
