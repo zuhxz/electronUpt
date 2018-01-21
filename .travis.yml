@@ -1,6 +1,6 @@
 language: node_js
 install: npm install
-script: touch test1.txt
+script: echo wat >> test1.txt
 deploy:
   provider: releases
   api_key:
