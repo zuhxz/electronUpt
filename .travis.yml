@@ -2,6 +2,8 @@ language: node_js
 install: npm install
 script:
     - echo wat >> test1.txt
+    
+before_deploy:
     - git add test1.txt
 deploy:
   provider: releases
